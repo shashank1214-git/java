@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #041B15; /* Dark green background */
+  color: #000000; /* Text color for good contrast */
+}
+
+header {
+  background-color: #136F63; /* Header background */
+  color: #FFFFFF;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+main {
+  text-align: center;
+  padding: 2rem;
+  background-color: #4CE0D2; /* Main content background */
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #000000;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #22AAA1; /* Button background */
+  color: #FFFFFF;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #136F63;
+}
+
+footer {
+  background-color: #136F63;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+button {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #84CAE7;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #22AAA1;
+}
+
+#recipe-output {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.recipe {
+  background-color: #4CE0D2;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #84CAE7;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
